@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head'
 import { useSelector } from 'react-redux';
 import Suggestion from '@/components/pages/suggestion'
-import { RootState } from '@/types/types';
+import { RootState } from '@/store/store';
 export default function Home() {
   const display = useSelector((state: RootState) => state.display);
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '@/styles/roadmap.module.css'
-import { useSelector } from 'react-redux';
 import { useRouter } from 'next/router';
 import data from '../../../public/data/data.json'
 const roadmap = () => {

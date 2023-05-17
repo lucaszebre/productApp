@@ -15,8 +15,9 @@ const Suggestion = () => {
     // Initial check if data is available and in expected format
     if (!data || !data.productRequests || !Array.isArray(data.productRequests)) {
         console.error('Invalid data');
-        return;
+        return <div>Invalid data</div>; // Return some JSX
     }
+    
 
     const productRequests = data.productRequests;
     const { filter, category } = useSelector((state: RootState) => state.display);
