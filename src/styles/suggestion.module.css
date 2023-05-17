@@ -1,0 +1,78 @@
+    .Center{
+        max-width: 1440px;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        gap: 1em;
+        margin-top: 2rem;
+    }
+    .Block1{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        justify-content: start;
+    }
+    .Block2{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        justify-content: start;
+        width: 100%;
+    }
+    
+    .CenterAll{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .CenterMobile,.BlockMobile{
+        display: none;
+    }
+    
+    @media (max-width:1024px){
+        .CenterAll{
+            margin: 0;
+        }
+        .Center{
+        display: flex;
+        flex-direction: column;
+        
+        }
+    
+        .Block1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        }
+    }
+    
+    @media (max-width:765px){
+        .CenterAll{
+            margin: 0;
+        }
+        .Center{
+        display: none;
+        }
+        .CenterMobile{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    
+        .BlockMobile{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        width: 90%;
+        }
+    }

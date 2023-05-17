@@ -1,0 +1,25 @@
+.Roadmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.RoadmapCenter{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1440px;
+}
+
+@media (max-width:765px){
+    .Roadmap{
+        margin-top: 0;
+    }
+    .RoadmapCenter{
+        width: 100%;
+    }
+}

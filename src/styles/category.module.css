@@ -1,0 +1,41 @@
+.category{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 166px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: start;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.categoryCol1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.bubble{
+    cursor: pointer;
+    color: #4661E6;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: .4rem;
+    background-color: aliceblue;
+}
+
+.bubble:hover{
+    background-color: #4661E6;
+    color: white;
+}
+
+@media (max-width:1024px){
+    .category{
+        width: 100%;
+        height: 178px;
+
+    }
+}

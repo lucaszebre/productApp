@@ -1,0 +1,65 @@
+.MiniBoard{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 255px;
+    height: 137px;
+    background-image: '/assets/suggestions/desktop/background-header.png';
+    background: violet;
+    justify-content: end;
+    align-items: start;
+    border-radius: 10px;
+    position: relative;
+}
+.ImageMiniBoard{
+    border-radius: 10px;
+}
+.MiniBoardH1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.MiniBoardWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:.3rem;
+    z-index: 10;
+}
+
+.MiniBoardP{
+    color: wheat;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.Hamburger{
+    display: none;
+}
+
+@media (max-width:1024px){
+    .MiniBoard{
+        width: 100%;
+        height: 178px;
+    }
+}
+
+@media (max-width:765px){
+
+    .MiniBoard{
+        width: 100%;
+        justify-content: space-between;
+        border-radius: 0;
+        height: 72px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .Hamburger{
+        display: block;
+        z-index: 10;
+    }
+    .ImageMiniBoard{
+        border-radius: 0px;
+    }
+}

@@ -1,0 +1,15 @@
+.detailsCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.detailsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    max-width: 730px;
+}

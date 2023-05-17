@@ -1,0 +1,104 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: white;
+    height: 272px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cardStatus{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+}
+
+.round{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.cardStatusP{
+    font-size: 16px;
+    color: #647196;
+}
+
+.cardTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3A4374;
+}
+
+.cardDescription{
+    font-size: 16px;
+    color: #647196;
+    align-items: start;
+}
+
+.cardCategory{
+    height: 30px;
+    padding: .4em;
+    width: auto;
+    background-color: #F2F4FF;
+    border-radius: 10px;
+    color: #4661E6;
+    font-size: 13px;
+    font-weight:700
+}
+
+.cardBottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardBottomBlock1{
+    align-items: center;
+    gap: .5em;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: .4rem;
+    background-color: aliceblue;
+}
+.cardNumberFeed{
+    font-size: 13px;
+    font-weight: bold;
+    color: #3A4374;
+}
+.cardNumberComment{
+    font-size: 16px;
+    font-weight: bold;
+    color: #3A4374;
+}
+.cardBottomBlock2{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+@media (max-width:1024px){
+    .card{
+        height: 351px;
+        width: 100%;
+    }
+}
+
+@media (max-width:765px){
+    .card{
+        width: 100%;
+    }
+}

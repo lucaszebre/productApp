@@ -1,0 +1,96 @@
+.bubble{
+    color: #4661E6;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: .4rem;
+    background-color: aliceblue;
+}
+.cardblock{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: start;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    background-color: white;
+    height: 151px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1.5em;
+    cursor: pointer;
+}
+
+.cardbubble{
+    color: #4661E6;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: .4rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardtag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1em;
+}
+
+.cardH1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3A4374;
+}
+
+.cardP{
+    font-size: 16px;
+    color: #647196;
+}
+
+.cardMessage{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 1em;
+    height: 100%;
+    justify-content: center;
+}
+
+.cardMessageNumber{
+    color: #3A4374;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cardBlock2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+@media (max-width:765px){
+    .cardblock{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .card{
+        height: auto;
+        align-items: end;
+    }
+
+    .cardbubble{
+        flex-direction: row;
+    }
+}

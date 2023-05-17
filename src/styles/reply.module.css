@@ -1,0 +1,122 @@
+.comment{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    width: 100%;
+    max-width: 730px;
+    height: auto;
+    border-radius: 10px;
+}
+.avatar{
+    border-radius: 50%;
+}
+.commentH1{
+    color: #3A4374;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.commentCard{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.commentBlock{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.commentRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.commentReply{
+    color: #4661E6;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.commentCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: .5em;
+}
+
+.commentH2{
+    color: #3A4374;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.commentHashtag{
+    color: #647196;
+    font-size: 14px;
+}
+
+.commentDescription{
+    font-size: 15px;
+    color: #647196;
+    text-align: start;
+}
+
+.commentBottom{
+    gap: 1em;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.commentTextArea{
+    background-color: #F7F8FD;
+    border: none;
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.commentButton{
+    background-color: #AD1FEA;
+    color: #F7F8FD;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 44px;
+    width: 117px;
+    border: none;
+}
+
+.commentBigRow{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    border-bottom: 1px thick #647196;
+}
+
+.ReplySpan{
+    font-size: 15px;
+    font-weight: bold;
+    color: #AD1FEA;
+}
+
+.reply{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}

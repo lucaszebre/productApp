@@ -1,0 +1,23 @@
+.topDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topButton{
+    background-color: #4661E6;
+    color: white;
+    height: 44px;
+    width: 142px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
