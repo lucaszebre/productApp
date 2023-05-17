@@ -62,7 +62,7 @@ const Suggestion = () => {
                     <div className={styles.Block2}>
                         <Header />
                         {requests.length > 0 ? (
-                            requests.map((request) => (
+                            requests.map((request,index) => (
                                 <Card 
                                     id={request.id}
                                     key={request.id}

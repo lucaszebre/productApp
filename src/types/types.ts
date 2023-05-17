@@ -5,7 +5,7 @@ export type User = {
 }
 
 export type Reply = {
-    id: number
+    id?: number
     content: string
     replyingTo: string
     user: User
@@ -13,7 +13,7 @@ export type Reply = {
 }
 
 export type Comment = {
-    id: number
+    id?: number
     content: string
     user: User
     replyingTo?: string
